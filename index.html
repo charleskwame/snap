@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+  </head>
+  <body>
+    <header
+      class="grid grid-flow-col justify-between items-center mt-8 mx-5 lg:mx-10"
+    >
+      <img src="./images/logo.svg" alt="logo" />
+
+      <nav class="hidden lg:flex items-center gap-8">
+        <!-- desktop menu -->
+        <a
+          href="#"
+          class="text-xl font-semibold hover:underline hover:underline-offset-8"
+          >Features</a
+        >
+        <a
+          href="#"
+          class="text-xl font-semibold hover:underline hover:underline-offset-8"
+          >Company</a
+        >
+        <a
+          href="#"
+          class="text-xl font-semibold hover:underline hover:underline-offset-8"
+          >Careers</a
+        >
+        <a
+          href="#"
+          class="text-xl font-semibold hover:underline hover:underline-offset-8"
+          >About</a
+        >
+      </nav>
+
+      <div class="lg:flex gap-10 items-center hidden font-semibold">
+        <!-- log in and register -->
+        <a href="#" class="text-xl hover:underline hover:underline-offset-8"
+          >Log in</a
+        >
+
+        <a
+          href="#"
+          class="text-xl font-medium border-2 px-5 py-2 rounded-lg border-black hover:bg-black hover:text-white"
+          >Register</a
+        >
+      </div>
+
+      <div class="grid gap-[3px] lg:hidden">
+        <!-- mobile menu -->
+        <div class="bg-black w-8 h-[2px] rotate-180"></div>
+        <div class="bg-black w-8 h-[2px] rotate-180"></div>
+        <div class="bg-black w-8 h-[2px] rotate-180"></div>
+      </div>
+    </header>
+
+    <main class="">
+      <div class="mt-5">
+        <!-- mobile hero -->
+        <img src="./images/image-hero-mobile.png" alt="" class="lg:hidden" />
+      </div>
+
+      <div class="grid grid-flow-col gap-10 items-center lg:mx-20">
+        <div class="lg:w-3/4">
+          <h1
+            class="text-center text-3xl font-bold mt-8 lg:text-7xl lg:text-left lg:mx-10 lg:mt-0"
+          >
+            Make remote work
+          </h1>
+
+          <p
+            class="text-center mx-5 mt-5 font-semibold opacity-70 lg:text-2xl lg:text-left lg:mx-10"
+          >
+            Get your team in sync no matter what your location. Streamline
+            processes, create team rituals and watch productiviy soar.
+          </p>
+
+          <div class="text-center mt-7 lg:text-left lg:mx-10 lg:mt-10">
+            <a
+              href="#"
+              class="bg-black text-white px-6 py-3 rounded-lg text-sm font-medium lg:text-xl hover:bg-white hover:text-black hover:border-2 hover:border-black"
+              >Learn more</a
+            >
+          </div>
+
+          <div
+            class="flex items-center justify-center mx-5 gap-3 mt-9 mb-10 lg:gap-10 lg:mt-10 lg:mx-10"
+          >
+            <!-- icons -->
+            <img
+              src="./images/client-audiophile.svg"
+              alt=""
+              class="w-14 lg:w-24"
+            />
+            <img
+              src="./images/client-databiz.svg"
+              alt=""
+              class="w-16 lg:w-28"
+            />
+            <img src="./images/client-maker.svg" alt="" class="w-16 lg:w-28" />
+            <img src="./images/client-meet.svg" alt="" class="w-16 lg:w-28" />
+          </div>
+        </div>
+
+        <div class="hidden lg:flex lg:mr-20">
+          <!-- desktop hero -->
+          <img src="./images/image-hero-desktop.png" alt="" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
